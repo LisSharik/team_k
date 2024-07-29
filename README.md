@@ -9,8 +9,8 @@
     -   Lis Sharik Agudelo Tobón
     -   Alejandro Quiceno Pérez
     -   Jeison Alexander Ortiz Jaramillo
-   
 
-    
+ ### Diagram UML
+![image](https://github.com/user-attachments/assets/22e4b66a-fc98-4e34-97ea-20ae891b69f9)
 
  
