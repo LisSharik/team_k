@@ -29,6 +29,8 @@ public class Sale {
     private Long id;
     @Column(nullable = false)
     private LocalDate date;
+    private Double totalPrice;
+
 
     @OneToMany(fetch = FetchType.EAGER,
      mappedBy = "sale",
