@@ -16,6 +16,5 @@ import lombok.experimental.SuperBuilder;
 public class SaleBasicResponse {
     private Long id;
     private LocalDate date;
-    private Long product;
     private Double totalPrice;
 }

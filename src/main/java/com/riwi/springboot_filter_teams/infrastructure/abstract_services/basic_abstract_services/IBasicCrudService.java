@@ -1,4 +1,4 @@
-package com.riwi.springboot_filter_teams.infrastructure.services.abstract_services.basic_abstract_services;
+package com.riwi.springboot_filter_teams.infrastructure.abstract_services.basic_abstract_services;
 
 public interface IBasicCrudService<RQ, RS, RBS, ID> extends
         IGetByIdService<RS, ID>,

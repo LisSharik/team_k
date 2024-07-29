@@ -15,7 +15,9 @@ public interface UserMapper {
     UserBasicResponse entityToBasicResponse(User user);
 
     @Mappings({
-        @Mapping(target = "id", ignore = true)
+        @Mapping(target = "id", ignore = true),
+        @Mapping(target = "sales", ignore = true),
+        @Mapping(target = "couponRedemptions", ignore = true)
     })
     User requestToEntity(UserRequest userRequest);
 }
