@@ -1,7 +1,5 @@
 package com.riwi.springboot_filter_teams.api.dto.request;
 
-import com.riwi.springboot_filter_teams.domain.entities.Sale;
-
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
