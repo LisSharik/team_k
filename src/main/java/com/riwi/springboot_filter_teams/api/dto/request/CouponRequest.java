@@ -20,10 +20,22 @@ public class CouponRequest {
     @Schema(description = "Coupon name", example = "30% dto")
     @NotBlank(message = "The Coupon name is required")
     private String name;
+
+    @Schema(description = "Coupon code unique")
+    @NotBlank(message = "The Coupon code unique is required")
     private Long codeUnique;
+
+    @Schema(description = "Coupon expiration date")
+    @NotBlank(message = "The Coupon expiration date is required")
     private LocalDateTime expirationDate;
+
+    @Schema(description = "Coupon available")
+    @NotBlank(message = "The Coupon available date is required")
     private Boolean available;
+
+    @Schema(description = "Coupon percent")
+    @NotBlank(message = "The Coupon percent is required")
     private Double porcent;
 
-    private List<CouponRedemtion> couponRedemptions;
+    
 }

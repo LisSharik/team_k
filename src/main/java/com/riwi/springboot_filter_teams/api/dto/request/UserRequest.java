@@ -33,7 +33,5 @@ public class UserRequest {
     @NotBlank(message = "The user phone is required")
     private String Phone;
 
-    private List<Sale> sale;
     
-    private List<CouponRedemtion> couponRedemtions;
 }

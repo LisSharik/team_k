@@ -22,5 +22,7 @@ public class ProductRequest {
     @NotBlank(message = "The product price is required")
     private double price;
 
+    @Schema(description = "SaleId of the product")
+    @NotBlank(message = "The sale Id is required")
     private Long saleId;
 }

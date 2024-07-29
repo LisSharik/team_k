@@ -29,4 +29,8 @@ public class SaleRequest {
     @Schema(description = "User of sale")
     @NotBlank(message = "user of sale is required")
     private Long userId;
+
+    @Schema(description = "Total of Sale")
+    @NotBlank(message = "Total of sale is required")
+    private double totalPrice;
 }
