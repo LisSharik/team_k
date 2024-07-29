@@ -4,6 +4,7 @@ import com.riwi.springboot_filter_teams.domain.entities.Sale;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,10 +20,10 @@ public class ProductRequest {
     private String name;
 
     @Schema(description = "Price of the product", example = "Jairo")
-    @NotBlank(message = "The product price is required")
+    @NotNull(message = "The product price is required")
     private double price;
 
     @Schema(description = "SaleId of the product")
-    @NotBlank(message = "The sale Id is required")
+    @NotNull(message = "The sale Id is required")
     private Long saleId;
 }

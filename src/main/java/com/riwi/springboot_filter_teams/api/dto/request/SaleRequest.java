@@ -8,6 +8,7 @@ import com.riwi.springboot_filter_teams.domain.entities.User;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -27,10 +28,10 @@ public class SaleRequest {
     private List<Product> product;
 
     @Schema(description = "User of sale")
-    @NotBlank(message = "user of sale is required")
+    @NotNull(message = "user of sale is required")
     private Long userId;
 
     @Schema(description = "Total of Sale")
-    @NotBlank(message = "Total of sale is required")
+    @NotNull(message = "Total of sale is required")
     private double totalPrice;
 }
