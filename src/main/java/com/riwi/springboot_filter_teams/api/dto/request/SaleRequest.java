@@ -20,7 +20,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class SaleRequest {
     @Schema(description = "Date of sale", example = "DD-MM-AAA")
-    @NotBlank(message = "date of sale is required")
+    @NotNull(message = "date of sale is required")
     private LocalDate date;
 
     @Schema(description = "Product of Sale")
