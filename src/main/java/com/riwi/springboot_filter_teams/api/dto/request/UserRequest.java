@@ -18,7 +18,7 @@ public class UserRequest {
 
     @Schema(description = "lastname of the User", example = "Perez Otoniel")
     @NotBlank(message = "The user lastname is required")
-    private String lastname;
+    private String password;
 
     @Schema(description = "Email of the User", example = "JairoPerez@correo.com")
     @NotBlank(message = "The user email is required")
@@ -26,7 +26,7 @@ public class UserRequest {
     
     @Schema(description = "Phone of the User", example = "310-000-0000")
     @NotBlank(message = "The user phone is required")
-    private String Phone;
+    private String phone;
 
     
 }

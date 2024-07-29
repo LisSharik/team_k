@@ -18,5 +18,4 @@ public class SaleBasicResponse {
     private LocalDate date;
     private Long product;
     private Double totalPrice;
-
 }
