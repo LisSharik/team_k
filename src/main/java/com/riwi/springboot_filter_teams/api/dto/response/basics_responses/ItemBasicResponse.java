@@ -11,9 +11,9 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @Getter
 @Setter
-public class UserBasicResponse {
+public class ItemBasicResponse {
     private Long id;
-    private String name;
-    private String email;
-    private String Phone;
+    private int quantity;
+    private double price;
+    
 }
