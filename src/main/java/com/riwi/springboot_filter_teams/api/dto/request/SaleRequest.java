@@ -1,13 +1,7 @@
 package com.riwi.springboot_filter_teams.api.dto.request;
 
 import java.time.LocalDate;
-import java.util.List;
-
-import com.riwi.springboot_filter_teams.domain.entities.Product;
-import com.riwi.springboot_filter_teams.domain.entities.User;
-
 import io.swagger.v3.oas.annotations.media.Schema;
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

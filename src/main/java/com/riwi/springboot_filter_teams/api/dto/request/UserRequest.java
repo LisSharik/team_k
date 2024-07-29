@@ -1,10 +1,5 @@
 package com.riwi.springboot_filter_teams.api.dto.request;
 
-import java.util.List;
-
-import com.riwi.springboot_filter_teams.domain.entities.CouponRedemtion;
-import com.riwi.springboot_filter_teams.domain.entities.Sale;
-
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
