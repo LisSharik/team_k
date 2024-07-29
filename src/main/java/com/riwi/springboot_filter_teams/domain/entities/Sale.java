@@ -36,7 +36,7 @@ public class Sale {
      mappedBy = "sale",
      cascade = CascadeType.ALL,
      orphanRemoval = false)
-    private List<Product> products;
+    private List<Item> items;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", referencedColumnName = "id")
