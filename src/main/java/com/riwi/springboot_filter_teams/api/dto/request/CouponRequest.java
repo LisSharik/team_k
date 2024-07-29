@@ -31,7 +31,7 @@ public class CouponRequest {
     private LocalDateTime expirationDate;
 
     @Schema(description = "Coupon available")
-    @NotBlank(message = "The Coupon available date is required")
+    @NotNull(message = "The Coupon available date is required")
     private Boolean available;
 
     @Schema(description = "Coupon percent")
