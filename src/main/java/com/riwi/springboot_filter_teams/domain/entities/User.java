@@ -44,4 +44,10 @@ public class User {
      cascade = CascadeType.ALL,
      orphanRemoval = false)
     private List<Sale> sales;
+
+    @OneToMany(fetch = FetchType.EAGER,
+     mappedBy = "user",
+     cascade = CascadeType.ALL,
+     orphanRemoval = false)
+    private List<CouponRedemption> couponRedemptions;
 }
