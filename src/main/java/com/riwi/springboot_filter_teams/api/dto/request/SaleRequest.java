@@ -23,10 +23,6 @@ public class SaleRequest {
     @NotNull(message = "date of sale is required")
     private LocalDate date;
 
-    @Schema(description = "Product of Sale")
-    @NotBlank(message = "product of sale is required")
-    private List<Product> product;
-
     @Schema(description = "User of sale")
     @NotNull(message = "user of sale is required")
     private Long userId;
